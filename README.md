@@ -21,12 +21,12 @@ This script reads a directory structure where job applications are organized by 
 
 ## Folder Structure Example
 
-Co-Op/
-├── Ciena/
-│ ├── 2025-0001/
-│ └── 2025-0002/
-├── IBM/
-│ └── 2025-0021/
+Co-Op/  
+├── Ciena/  
+│ ├── 2025-0001/  
+│ └── 2025-0002/  
+├── IBM/  
+│ └── 2025-0021/  
 
 
 Each `Company/Job ID` pair becomes a unique entry in the Excel tracker.
@@ -39,5 +39,5 @@ Each `Company/Job ID` pair becomes a unique entry in the Excel tracker.
 
 ## Automation (Cron)
 
-The script is set to run daily at 9:00 AM using `cron`. Example cron entry:
+The script is set to run daily at 9:00 AM using `cron`. Example cron entry:  
 `0 9 * * * /usr/bin/python3 /Users/riyadrajan/Desktop/coopScript.py`
