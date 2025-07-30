@@ -40,4 +40,4 @@ Each `Company/Job ID` pair becomes a unique entry in the Excel tracker.
 ## Automation (Cron)
 
 The script is set to run daily at 9:00 AM using `cron`. Example cron entry:
-0 9 * * * /usr/bin/python3 /Users/riyadrajan/Desktop/coopScript.py
+`0 9 * * * /usr/bin/python3 /Users/riyadrajan/Desktop/coopScript.py`
