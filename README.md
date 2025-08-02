@@ -22,10 +22,10 @@ This script reads a directory structure where job applications are organized by 
 ## Folder Structure Example
 
 Co-Op/  
-├── Ciena/  
+├── Company1/  
 │ ├── 2025-0001/  
 │ └── 2025-0002/  
-├── IBM/  
+├── Company2/  
 │ └── 2025-0021/  
 
 
