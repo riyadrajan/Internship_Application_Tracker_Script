@@ -21,13 +21,14 @@ This script reads a directory structure where job applications are organized by 
 
 ## Folder Structure Example
 
+```
 Co-Op/  
 ├── Company1/  
 │ ├── 2025-0001/  
 │ └── 2025-0002/  
 ├── Company2/  
 │ └── 2025-0021/  
-
+```
 
 Each `Company/Job ID` pair becomes a unique entry in the Excel tracker.
 
